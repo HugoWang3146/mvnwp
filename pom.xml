@@ -1,13 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.wap.wh</groupId>
+	<groupId>jp</groupId>
 	<artifactId>mvnwp</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mvnwp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-
 	<properties>
 		<spring.version>4.1.8.RELEASE</spring.version>
 	</properties>
@@ -39,21 +38,27 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
 		<!-- Aspect dependencies -->
+		
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.2.4</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
 			<version>1.8.6</version>
 		</dependency>
 
-		<!-- Prometheus dependencies -->
-		<dependency>
-			<groupId>io.prometheus</groupId>
-			<artifactId>simpleclient</artifactId>
-			<version>0.1.0</version>
-		</dependency>
 	</dependencies>
-
 
 	<build>
 		<finalName>mvnwp</finalName>
