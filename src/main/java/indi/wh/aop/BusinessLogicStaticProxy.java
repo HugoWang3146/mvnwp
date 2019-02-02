@@ -1,6 +1,4 @@
-package aop;
-
-import jp.wh.aop.BusinessLogicIF;
+package indi.wh.aop;
 
 public class BusinessLogicStaticProxy implements BusinessLogicIF {
 	private BusinessLogicIF bl;

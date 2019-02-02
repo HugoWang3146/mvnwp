@@ -1,4 +1,4 @@
-package indi.wh.service;
+package indi.wh.spring.aspect.service;
 
 import org.springframework.stereotype.Service;
 

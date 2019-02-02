@@ -1,6 +1,6 @@
-package indi.wh.controller;
+package indi.wh.spring.aspect.controller;
 
-import indi.wh.service.BusinessLogicServiceIF;
+import indi.wh.spring.aspect.service.BusinessLogicServiceIF;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

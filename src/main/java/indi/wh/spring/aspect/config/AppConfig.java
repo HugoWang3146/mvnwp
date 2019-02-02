@@ -1,4 +1,4 @@
-package indi.wh.config;
+package indi.wh.spring.aspect.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

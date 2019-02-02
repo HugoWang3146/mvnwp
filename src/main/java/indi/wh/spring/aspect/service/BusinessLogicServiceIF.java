@@ -1,4 +1,4 @@
-package indi.wh.service;
+package indi.wh.spring.aspect.service;
 
 public interface BusinessLogicServiceIF {
 

@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mvnwp" />
+        <module name="spring-web-aspect-aop-logback-maven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mvnwp" target="1.5" />
+      <module name="spring-web-aspect-aop-logback-maven" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

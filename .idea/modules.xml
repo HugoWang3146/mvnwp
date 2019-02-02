@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mvnwp.iml" filepath="$PROJECT_DIR$/mvnwp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-web-aspect-aop-logback-maven.iml" filepath="$PROJECT_DIR$/spring-web-aspect-aop-logback-maven.iml" />
     </modules>
   </component>
 </project>
